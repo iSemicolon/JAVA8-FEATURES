@@ -8,6 +8,18 @@ package defaultMethod;
     
    Why need:: 
     The reason behind adding the default method is to allowed us to add new methods to the interfaces without affecting the classes that implement these interfaces.
+ 
+ Example::
+ 
+     interface InfDemo{
+     
+	// Default method
+	 
+	 default void demo1() {
+		 System.out.println("Default demo1 method inside interface");
+	 }
+}
+
  */
 
 interface InfDemo{
