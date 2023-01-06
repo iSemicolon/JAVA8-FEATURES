@@ -19,7 +19,7 @@
     why we need FunctionalInterface --
      
      *The functional interface is used to support the 
-     
+     -- to provide reference to the lambda expression we need FunctionalInterface
      a. functional programming approach
      b. lambda expression
      c. method reference .
