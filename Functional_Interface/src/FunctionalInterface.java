@@ -26,6 +26,16 @@
      
      --------------------------------------------------------------
      
+         Functional-Interface              Abstract-Method 
+     
+     1.  Runnable--------------------------> run()
+     2.  Comparable------------------------> compareTo()
+     3.  Comparator------------------------> compare()
+     4.  ActionListner---------------------> actionPerformed()
+     5.  Callable--------------------------> call()
+     
+     --------------------------------------------------------------
+     
      Example: Functional Interface
  
  Example 1. Only one method(allowed-Functional Interface)
