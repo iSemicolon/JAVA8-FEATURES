@@ -47,15 +47,23 @@ class ImplDemo implements InfDemo {
 		System.out.println("--Interface Referrance--");
 		
 		InfDemo d1=new ImplDemo();
+		
+		// Calling Default Methods
 		d1.demo1();
 		d1.demo2();
+		
+		// Calling Abstract Methods
 		d1.demo3();
 		
 		System.out.println("--Implementation Referrance--");
 		
 		ImplDemo d2=new ImplDemo();
+		
+		// Calling Default Methods
 		d2.demo1();
 		d2.demo2();
+		
+		// Calling Abstract Methods
 		d2.demo3();
 
 	}
